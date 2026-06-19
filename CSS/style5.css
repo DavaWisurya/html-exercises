@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.tahoma {
+    font-family: Tahoma, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.deal-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.deal-sales {
+    color: red;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.verdana {
+    font-family: Verdana, sans-serif;
+}
+
+.course-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.course-level {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.course-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+.course-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.business-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.business-desc {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 95px;
+}
+
+.business-link {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 170px;
+}
+
+.new-label {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 200px;
+}
+
+.mac-title {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 153px;
+}
+
+.mac-desc {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.mac-price {
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+}
+
+.mac-btn {
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 170px;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: lighter;
+    margin-bottom: 8px;
+}
+
+.currency {
+    font-size: 18px;
+    color: #666;
+}
+
+.change {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.positive {
+    color: #22aa22;
+}
+
+.after-hours {
+    color: #666;
+    font-size: 16px;
+}
+
+.negative {
+    color: #cc0000;
+}
+
+.twitter-header {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.user {
+    font-weight: bold;
+    color: #000;
+}
+
+.handle, .time {
+    color: #777;
+    margin-left: 5px;
+}
+
+.tweet {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.mention {
+    color: #1da1f2;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}

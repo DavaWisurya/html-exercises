@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.paragraph {
+    font-family: montserrat;
+    margin-left: 100px;
+}
+
+.h1 {
+    font-family: montserrat;
+    line-height: 1;
+    margin-left: 170px;
+}
+
+.underline {
+    text-decoration: underline;
+    font-family: montserrat;
+}

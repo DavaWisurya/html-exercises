@@ -1,0 +1,11 @@
+        .satu {
+            margin-bottom: 1px;
+            margin-top: 5px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .horizontal {
+            display: flex;
+            gap: 10px;
+        }
