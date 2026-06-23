@@ -1,0 +1,111 @@
+body {
+    background-color: grey;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.info p {
+    margin: 2px 0;
+    font-size: 14px;
+    color: gray;
+}
+
+.popular {
+    color: #1DA1F2;
+    font-weight: bold;
+}
+
+.follow-btn {
+    margin-top: 15px;
+    padding: 8px 20px;
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+.follow-btn:hover {
+    background-color: #1a8cd8;
+}
+
+
+
+
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.vertikal {
+    border: 3px solid red;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.horizontal {
+    border: 3px solid blue;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h3, p {
+    margin: 0;
+}
+
+.popular {
+    color: blue;
+    font-weight: bold;
+}
+
+.follow-btn {
+    padding: 8px 0;
+    width: 100%;
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
